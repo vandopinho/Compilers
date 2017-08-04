@@ -30,10 +30,11 @@ void resetBuffer(){
         bufferPos = bufferPos - 1;
 }
 void refillBuffer(){
-        while(True):
+        while(){
             if(bufferPos == bufferSize):
                 clearBuffer();
                 fullBuffer();
+              }
 }
 
 fclose(file);
